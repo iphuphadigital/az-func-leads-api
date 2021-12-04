@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "subscriptionId": {
+      "value": "b99dadf3-628b-41c0-b9a4-0d652bf0bc83"
+    },
+    "name": {
+      "value": "func-leadsapp"
+    },
+    "location": {
+      "value": "South Africa North"
+    },
+    "hostingPlanName": {
+      "value": "ASP-iphuphadigitalplatform-8bdc"
+    },
+    "serverFarmResourceGroup": {
+      "value": "iphuphadigital-platform"
+    },
+    "alwaysOn": {
+      "value": false
+    },
+    "storageAccountName": {
+      "value": "saiphuphadigitalsite"
+    },
+    "sku": {
+      "value": "Dynamic"
+    },
+    "skuCode": {
+      "value": "Y1"
+    },
+    "workerSize": {
+      "value": "0"
+    },
+    "workerSizeId": {
+      "value": "0"
+    },
+    "numberOfWorkers": {
+      "value": "1"
+    },
+    "use32BitWorkerProcess": {
+      "value": true
+    },
+    "netFrameworkVersion": {
+      "value": "v6.0"
+    }
+  }
+}
